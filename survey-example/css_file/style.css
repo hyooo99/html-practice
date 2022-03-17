@@ -1,0 +1,107 @@
+/* 웹 전체 적용 */
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  border: 1px solid;
+  width: 400px;
+  height: auto;
+  margin: 33px auto;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background-color: whitesmoke;
+}
+/* header태그 적용 */
+/* Id tag */
+#header-wrap {
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 20px;
+}
+#h-subTitle {
+  margin: 5px;
+}
+#h-contentsBox {
+  display: flex;
+  flex-direction: column;
+}
+/* Class tag */
+
+
+
+/* section태그 적용 */
+/* Id tag */
+#section-wrap {
+  text-align: center;
+  margin: 60px auto;
+  margin-bottom: 45px;
+}
+#a-button-box {
+  margin: 60px auto;
+}
+#icon-box {
+  text-align: right;
+  margin: auto 20px;
+  margin-bottom: 13px;
+}
+#submit-contents {
+  margin-bottom: 14px;
+}
+#question-box {
+  margin-bottom: 33px;
+}
+#radio-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+#rdb-wrap {
+  margin: auto 9px;
+}
+#reviewContents-box {
+  margin-top: 37px;
+}
+/* Class tag */
+
+
+
+/* footer태그 적용 */
+/* Id tag */
+#footer-wrap {
+  text-align: center;
+}
+#jsButton-box {
+  margin-bottom: 35px;
+}
+/* Class tag */
+
+
+/* 기타 옵션 */
+/* Id tag */
+#main-img {
+  width: 350px;
+  height: 350px;
+}
+#sub-img {
+  width: 250px;
+  height: 250px;
+}
+#jsButton {
+  padding: 5px 15px;
+}
+#mode-button {
+  padding: 3px 10px;
+  float: right;
+  margin-right: 15px;
+}
+/* Class tag */
+.img-radius {
+  border-radius: 30px;
+}
+.bt-option {
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  background-color: darkgray;
+}

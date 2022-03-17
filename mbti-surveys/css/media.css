@@ -1,0 +1,24 @@
+@media (max-width : 1105px) {
+    #qsb-ctx {
+        width: 350px;
+        height: auto;
+        font-size: 1.5rem;
+    }
+    #resb-msg {
+        width: 350px;
+        height: auto;
+    }
+    #a-btn, #b-btn, #stb-btn {
+        width: 270px;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    .imgSize {
+        width: 200px;
+        height: 150px;
+    }
+    #qsb-btnBox {
+        display: flex;
+        flex-direction: column;
+    }
+}

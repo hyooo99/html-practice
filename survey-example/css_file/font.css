@@ -1,0 +1,46 @@
+
+/*
+폰트 스타일
+* 한국어 지원 폰트
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Sunflower', sans-serif;
+
+* 한국어 미지원 폰트
+font-family: 'Montserrat', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+/* 폰트 종류*/
+.bhs-fontStyle {
+  /* Korean & English */
+  font-family: 'Black Han Sans', sans-serif;
+}
+.dh-fontStyle {
+  /* Korean & English */
+  font-family: 'Do Hyeon', sans-serif;
+}
+.sf-fontStyle {
+  /* Korean & English */
+  font-family: 'Sunflower', sans-serif;
+}
+.msr-fontStyle {
+  /* Only English */
+  font-family: 'Montserrat', sans-serif;
+}
+.jfs-fontStyle {
+  /* Only English */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* 폰트 사이즈 */
+.px20fs {
+  font-size: 20px;
+}
+.px16fs {
+  font-size: 16px;
+}
+.px18fs {
+  font-size: 18px;
+}
