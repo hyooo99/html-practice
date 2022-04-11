@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currecy Exchange</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="dropdown">
+            <button class="dropbtn" id="input-btn">USD</button>
+            <div class="dropdown-content" id="input-data">
+              <a href="#">USD</a>
+              <a href="#">KRW</a>
+              <a href="#">VND</a>
+            </div>
+        </div>
+        <div class="ctx">
+            <input type="number" id="from-input" onkeyup="convert()">
+            <div>달러</div>
+        </div>
+    </div>
+    <h1> = </h1>
+    <div class="wrap">
+        <div class="dropdown">
+            <button class="dropbtn" id="output-btn">USD</button>
+            <div class="dropdown-content" id="output-data">
+              <a href="#">USD</a>
+              <a href="#">KRW</a>
+              <a href="#">VND</a>
+            </div>
+        </div>
+        <div class="ctx">
+            <input type="number" id="to-input">
+            <div>달러</div>
+        </div>
+    </div>
+
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
